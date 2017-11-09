@@ -4,26 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 7ma
+namespace 8ma
 {
     class Program
     {
         static void Main(string[] args)
         {
-        while (true)
+            while (true)
         {
-            int a;
-            a = Convert.ToInt32(Console.ReadLine());
-            for int (i = 0;
-                i <= a;
-                i++)
+            int n;
+            n = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i <= n; i++)
             {
-                for (int x = 0; x < i; x++)
+                for (int x = 1; x < i + i; x++)
                 {
-                    Console.ReadLine('$');
+                    Console.WriteLine(x);
                 }
-                Console.ReadLine();
-    
+                Console.WriteLine();
         }
     }
 }
